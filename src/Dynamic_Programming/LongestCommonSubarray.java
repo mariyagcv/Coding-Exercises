@@ -17,8 +17,8 @@ public class LongestCommonSubarray {
         int maxLength = 0;
 
 
-        for(int i=0; i<nums1.length; i++) {
-            for(int j=0; j<nums2.length; j++) {
+        for(int i=0; i<dp.length; i++) {
+            for(int j=0; j<dp[0].length; j++) {
                 // rows and columns are 0 since if we have empty string ' ' and whatever is the other word (e.g ABCD)
                 // then the common subsequence is always 0; vice versa for ABCD with ' '
 
