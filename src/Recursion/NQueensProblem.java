@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class NQueensProblem {
     /*
-    A Dynamic programming problem. Print out all positions in which 4 queens can be at without attacking each other
+    A Backtracking problem. Print out all positions in which 4 queens can be at without attacking each other
 
     Solution: A Queen can't be on the row, column, or diagonal with a queen. We can approach the problem by
     working at each row level. So, we find a column for the first queen, then we go to the next row (because we know
