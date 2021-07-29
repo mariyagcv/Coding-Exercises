@@ -11,11 +11,7 @@ Note: subSTRING != subSEQUENCE, substring means the elements are adjacent
 public class LongestCommonSubarray {
     public int findLength(int[] nums1, int[] nums2) {
         int[][] dp = new int[nums1.length+1][nums2.length+1];
-
-
-
         int maxLength = 0;
-
 
         for(int i=0; i<dp.length; i++) {
             for(int j=0; j<dp[0].length; j++) {
